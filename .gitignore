@@ -1,0 +1,27 @@
+
+# Terraform files
+*.tfstate
+*.tfstate.*
+.terraform/
+*.tfvars
+!example.tfvars
+.terraform.lock.hcl
+
+# Local .env files
+.env
+*.env
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# Credentials
+credentials.json
+*_credentials.*
